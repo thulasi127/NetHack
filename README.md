@@ -1,20 +1,16 @@
-# NetHack
-A replication of the open source single-player roguelike video game.
-By reading into and handling data from JSON files, the game involves several elements such as the environment, entities, and objects which are represented by arrangements of ASCII or Extended ASCII glyphs. In addition to the environment, the interface also displays character and situational information (symbols, items, doors, rooms, etc.).
+NAME: Thulasi Jothiravi
+STUDENT ID: 1085122
+EMAIL: tjothira@uoguelph.ca
 
-The bigger picture of this program is that it explores the principle Object-Oriented programming concepts of Object, Class, Inheritance, Polymorphism and Encapsulation. To briefly describe the use of some of these concepts, each object in this game (Item, Player, Door, Room, Rogue) is represented by its own class. The program uses encapsulation to implement the accessor/mutator methods also known as the getters and setters. Finally, the principle of Inheritence is put into use for catch exceptions throughout the code. This project is executed using Gradle and also incorporates JSON file handling and Exception Handlings.
+INTEGRITY STATEMENT:
+I, Thulasi Jothiravi, did the work for this assignment on my own, without copying work from any other sources not provided by the professor.
 
-execution + compilation:
+PROGRAM EXPLANATION:
+execution + compilation of assignment:
 $gradle build
 $gradle run
 
-4 JSON Files:
-A2_Rooms.json
-fileLocations.json
-rooms-updated.json
-symbols-map.json
-
-6 classes:
+6 Main classes:
   WindowUI.java
   RogueParser.java
   Rogue.java
